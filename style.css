@@ -4,6 +4,9 @@
     direction: rtl;
     font-family: iransans;
 }
+body{
+    background-color: #F2F2F2;
+}
 .main-menu{
     font-family: iransans_bold !important;
 }
@@ -16,4 +19,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
+}
+.navbar-menu{
+    background-color: black !important;
+}
+.logo{
+    width: 1.2em;
 }
