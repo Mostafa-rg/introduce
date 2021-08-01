@@ -17,6 +17,65 @@
     <title>Cards</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <button class="btn-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+            <ul class="navbar-nav main-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">خانه</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a href="#" class="nav-link">محصولات</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a href="#" class="nav-link">گالری</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a href="#" class="nav-link">ارتباط با ما</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a href="#" class="nav-link disabled">همکاری</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="flex-cards">
+        <div class="card mt-5 card-size">
+            <img class="card-img-top" src="images/mostafa.jpeg" alt="mostafa">
+            <div class="card-body">
+                <h4 class="card-title">مصطفی رحمانی</h4>
+                <p class="card-text d-inline">کارآموز طراحی وب</p>
+                <button class="btn btn-light text-info" data-toggle="collapse" data-target="#moreinformation">جزئیات</button>
+                <div class="collapse" id="moreinformation">
+                    مصطفی رحمانی در 12 خرداد 1377 چشم به جهان گشود.
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#details">اطلاعات بیشتر</button>
+                <div class="modal" id="details">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">مصطفی رحمانی</h4>
+                            </div>
+                            <div class="modal-body">
+                                مصطفی رحمانی در 12 خرداد 1377 چشم به جهان گشود.
+                                <br>
+                                تحصیلات وی کارشناسی میکروبیولوژی از دانشگاه آزاد واحد بروجرد است اما علاقه اصلی او به برنامه نویسی، طراحی وبسایت است.
+                                <br>
+                                از جمله تفریحاتی که دنبال می کند می توان به فیلم، بازی های کامپیوتری و موسیقی اشاره کرد. 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 

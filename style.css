@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    direction: rtl;
+    font-family: iransans;
+}
+.main-menu{
+    font-family: iransans_bold !important;
+}
+.card-size{
+    width: 400px;
+    direction: rtl;
+}
+.flex-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
